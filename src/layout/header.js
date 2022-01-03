@@ -2,6 +2,7 @@ import React from "react"
 
 
 const Headerpart = () => {
+  console.log("Header rendering");
     return(
         <header className="header">
         <div className="container-fluid">

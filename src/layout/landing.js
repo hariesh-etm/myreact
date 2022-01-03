@@ -3,6 +3,7 @@ import React from 'react'
 
 
 const Landing = () => {
+  console.log("Dashboard rendering");
         return (
             <section className="section">
             <div className="container-fluid">

@@ -1,16 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import App from './App';
-
-
-
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-
+const routing = (
+<App/>
+)
+ReactDOM.render(routing,document.getElementById('root'));
